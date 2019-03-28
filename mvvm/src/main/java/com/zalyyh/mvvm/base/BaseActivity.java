@@ -1,13 +1,15 @@
 package com.zalyyh.mvvm.base;
 
+import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.DataBindingUtil;
 import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.view.View;
 
 import com.zalyyh.mvvm.messenger.Messenger;
 
-public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseViewModel> extends RxAppCompatActivity  {
+public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseViewModel> extends RxAppCompatActivity<V>  {
     protected V binding;
     protected VM model;
     protected int viewModelId;
@@ -23,11 +25,11 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
     /**
      * 注入绑定
      */
-    public void initViewDataBinding(Bundle savedInstanceState) {
+    public View initViewDataBinding(Bundle savedInstanceState) {
         binding = DataBindingUtil.setContentView(this, initContentView(savedInstanceState));
         viewModelId = initVariableId();
         model = initViewModel();
-        model = getModel(model);
+        model = (VM) ViewModelProviders.of(this).get(BaseViewUtil.getModel(getClass().getGenericSuperclass()));
         //关联ViewModel
         binding.setVariable(viewModelId, model);
         //让ViewModel拥有View的生命周期感应
@@ -35,6 +37,7 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
         //注入RxLifecycle生命周期
         model.injectLifecycleProvider(this);
         model.setActivity(this);
+        return binding.getRoot();
 
     }
     @Override

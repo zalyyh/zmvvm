@@ -22,7 +22,7 @@ import java.lang.reflect.Type;
 import io.reactivex.Observable;
 import io.reactivex.subjects.BehaviorSubject;
 
-public abstract class RxAppCompatActivity extends AppCompatActivity implements LifecycleProvider<ActivityEvent>,IBaseActivity {
+public abstract class RxAppCompatActivity<V> extends AppCompatActivity implements LifecycleProvider<ActivityEvent>,IBase<V>,IBaseActivity {
 
     private final BehaviorSubject<ActivityEvent> lifecycleSubject = BehaviorSubject.create();
 
@@ -109,29 +109,7 @@ public abstract class RxAppCompatActivity extends AppCompatActivity implements L
      * @return BR的id
      */
     public abstract int initVariableId();
-    /**
-     * 创建ViewModel
-     *
-     * @param cls
-     * @param <T>
-     * @return
-     */
-    public <T extends ViewModel> T createViewModel(FragmentActivity activity, Class<T> cls) {
-        return ViewModelProviders.of(activity).get(cls);
-    }
-    public <VM extends ViewModel> VM getModel(VM model){
-        if (model == null) {
-            Class modelClass;
-            Type type = getClass().getGenericSuperclass();
-            if (type instanceof ParameterizedType) {
-                modelClass = (Class) ((ParameterizedType) type).getActualTypeArguments()[1];
-            } else {
-                //如果没有指定泛型参数，则默认使用BaseViewModel
-                modelClass = BaseViewModel.class;
-            }
-            model =  (VM) createViewModel(this, modelClass);
-        }
-        return model;
-    }
+
+
 
 }

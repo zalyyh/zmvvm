@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -27,7 +27,10 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:28.0.0'
+    api 'com.android.support:appcompat-v7:28.0.0'
+    api 'com.android.support:recyclerview-v7:28.0.0'
+    api 'com.jakewharton.rxbinding2:rxbinding:2.1.1'
+    api 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
 
     api ('com.trello.rxlifecycle3:rxlifecycle:3.0.0'){
         exclude group: 'com.android.support'
@@ -46,6 +49,27 @@ dependencies {
     api ('me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0'){
         exclude group: 'com.android.support'
     }
-    implementation 'com.android.support:support-v4:28.0.0'
+    api 'com.android.support:support-v4:28.0.0'
 
+    api('com.afollestad.material-dialogs:core:0.9.4.5') {
+        exclude group: 'com.android.support'
+    }
+    api('com.afollestad.material-dialogs:commons:0.9.4.5') {
+        exclude group: 'com.android.support'
+    }
+    api 'android.arch.lifecycle:extensions:1.1.1'
+    annotationProcessor 'android.arch.lifecycle:compiler:1.1.1'
+    api 'com.google.code.gson:gson:2.8.2'
+    api 'com.squareup.okhttp3:okhttp:3.10.0'
+    api 'com.squareup.retrofit2:retrofit:2.4.0'
+    api 'com.squareup.retrofit2:converter-gson:2.4.0'
+    api 'com.squareup.retrofit2:adapter-rxjava2:2.4.0'
+    api 'com.github.bumptech.glide:glide:4.6.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle:2.2.1'
+    api 'com.trello.rxlifecycle2:rxlifecycle-components:2.2.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+
+    api('me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0') {
+        exclude group: 'com.android.support'
+    }
 }
