@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/zalyyh/android/zmvvm/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher_round.xml",
+        "source": "/Users/zalyyh/android/zmvvm/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/zalyyh/android/zmvvm/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26/ic_launcher.xml",
+        "source": "/Users/zalyyh/android/zmvvm/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

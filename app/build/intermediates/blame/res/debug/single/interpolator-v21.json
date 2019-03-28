@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zalyyh/android/zmvvm/app/build/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "/Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/res/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/zalyyh/android/zmvvm/app/build/intermediates/res/merged/debug/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "/Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/res/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/Users/zalyyh/android/zmvvm/app/build/intermediates/res/merged/debug/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "/Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/res/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    }
+]

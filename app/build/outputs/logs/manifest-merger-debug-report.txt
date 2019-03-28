@@ -1,0 +1,218 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [:mvvm] /Users/zalyyh/android/zmvvm/mvvm/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/ec1e63c734ee16fa4b2c55b528015718/AndroidManifest.xml:2:1-10:12
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-2.2.0.aar/18f527abd5a30305e6eca1943d81a6f3/AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.databinding:adapters:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/489b123cc3474517b48faae82a4de0cb/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/570270fdaceedf1279499fad9fbcc2e1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b2b23c1a4f1ce95b69a62f594ddf1584/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e4c11909349dd463044a7c7af3a63135/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/92fe76298154235e81d2cab079d2c3c3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/430645d3f48619e9aed0faa33688402f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a007b0cd428b784121ee4fb344cdc85d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/032dc8aecba5acf19c307cfdcd1a9927/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/650772cf6179d230b571037bdd29ed79/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cb4c26b9969aa52417cc675ded624d1b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/967f71c3855039a5ea8698b75295e081/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e25f7ef692cd051d4f37c120d475937a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/38369bc4001b90d4b8d66bba05b6c764/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1da50bfb193eeec9462e5d756328b7ea/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/fd6f0fe781757f8cd72141521e080750/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7dc1571f1d02a43c3e3e43761e7a47b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef1607f6ce6e7d7a1659ab28cad05e4c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6b1012fd0cc816255bc1eaac5ccda041/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4bd8d2ef70816148e6874c647aa68e1d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/4307b6121a9dde9cccf32215fcca473f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/51ee3e0769a86c301655a20aa92bc8ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:17:1-24:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:17:1-30:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d63c8b46668890a48246d6eeaec3f7f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3785b2eb8ce3ea9a59990cad6313a892/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc97130636bf7a2f2b3dc218c144412/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2539e8ca2120e758c226c5b1b4d5757e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/69b429085370d9bc9523bdb8bdad4237/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7de8ec0e8384ecce4fefd56f24ff8637/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/805f6da53a7727fb5b152b9b0b5ccd7d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/09ec492aee621470cb2095b0191bc7e4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b00778a7cfec8f04813e60fad2db3374/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ad1cba2826ba56883f6328a96b0388a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eb911f2085377a85054d4f485a086e6c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9275850229c42b4a07a711264afef563/AndroidManifest.xml:17:1-22:12
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android:3.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxlifecycle-android-3.0.0.aar/36244e790bb51d6f6bedc9a4ab397422/AndroidManifest.xml:13:1-18:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/947ce54b138347f92204c22a4cc27a3d/AndroidManifest.xml:15:1-20:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:5:5-22:19
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/ec1e63c734ee16fa4b2c55b528015718/AndroidManifest.xml:8:5-20
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/ec1e63c734ee16fa4b2c55b528015718/AndroidManifest.xml:8:5-20
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-2.2.0.aar/18f527abd5a30305e6eca1943d81a6f3/AndroidManifest.xml:8:5-20
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-2.2.0.aar/18f527abd5a30305e6eca1943d81a6f3/AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e4c11909349dd463044a7c7af3a63135/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e4c11909349dd463044a7c7af3a63135/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:22:5-94
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:22:5-28:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3785b2eb8ce3ea9a59990cad6313a892/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3785b2eb8ce3ea9a59990cad6313a892/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.zalyyh.zmvvm.MainActivity
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:12:9-21:20
+	android:label
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:14:13-45
+	android:theme
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:15:13-56
+	android:name
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+MERGED from [:mvvm] /Users/zalyyh/android/zmvvm/mvvm/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:mvvm] /Users/zalyyh/android/zmvvm/mvvm/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/ec1e63c734ee16fa4b2c55b528015718/AndroidManifest.xml:6:5-44
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter-recyclerview:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-recyclerview-2.2.0.aar/ec1e63c734ee16fa4b2c55b528015718/AndroidManifest.xml:6:5-44
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-2.2.0.aar/18f527abd5a30305e6eca1943d81a6f3/AndroidManifest.xml:6:5-44
+MERGED from [me.tatarka.bindingcollectionadapter2:bindingcollectionadapter:2.2.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/bindingcollectionadapter-2.2.0.aar/18f527abd5a30305e6eca1943d81a6f3/AndroidManifest.xml:6:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/489b123cc3474517b48faae82a4de0cb/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/adapters-3.2.1.aar/489b123cc3474517b48faae82a4de0cb/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/570270fdaceedf1279499fad9fbcc2e1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.2.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/library-3.2.1.aar/570270fdaceedf1279499fad9fbcc2e1/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/887fe7f1d2232fd874b0966f719a2a80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b2b23c1a4f1ce95b69a62f594ddf1584/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b2b23c1a4f1ce95b69a62f594ddf1584/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e4c11909349dd463044a7c7af3a63135/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/e4c11909349dd463044a7c7af3a63135/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/92fe76298154235e81d2cab079d2c3c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/92fe76298154235e81d2cab079d2c3c3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/430645d3f48619e9aed0faa33688402f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/430645d3f48619e9aed0faa33688402f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a007b0cd428b784121ee4fb344cdc85d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/a007b0cd428b784121ee4fb344cdc85d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/032dc8aecba5acf19c307cfdcd1a9927/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/032dc8aecba5acf19c307cfdcd1a9927/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/650772cf6179d230b571037bdd29ed79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/650772cf6179d230b571037bdd29ed79/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cb4c26b9969aa52417cc675ded624d1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/cb4c26b9969aa52417cc675ded624d1b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/967f71c3855039a5ea8698b75295e081/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/967f71c3855039a5ea8698b75295e081/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e25f7ef692cd051d4f37c120d475937a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/e25f7ef692cd051d4f37c120d475937a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/38369bc4001b90d4b8d66bba05b6c764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/38369bc4001b90d4b8d66bba05b6c764/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1da50bfb193eeec9462e5d756328b7ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/1da50bfb193eeec9462e5d756328b7ea/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/fd6f0fe781757f8cd72141521e080750/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/fd6f0fe781757f8cd72141521e080750/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7dc1571f1d02a43c3e3e43761e7a47b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/7dc1571f1d02a43c3e3e43761e7a47b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef1607f6ce6e7d7a1659ab28cad05e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/ef1607f6ce6e7d7a1659ab28cad05e4c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6b1012fd0cc816255bc1eaac5ccda041/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/6b1012fd0cc816255bc1eaac5ccda041/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4bd8d2ef70816148e6874c647aa68e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/4bd8d2ef70816148e6874c647aa68e1d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/4307b6121a9dde9cccf32215fcca473f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/4307b6121a9dde9cccf32215fcca473f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/51ee3e0769a86c301655a20aa92bc8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/51ee3e0769a86c301655a20aa92bc8ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fb74fbea4dc3c08884a227ca88fca88a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d63c8b46668890a48246d6eeaec3f7f7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/d63c8b46668890a48246d6eeaec3f7f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3785b2eb8ce3ea9a59990cad6313a892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3785b2eb8ce3ea9a59990cad6313a892/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc97130636bf7a2f2b3dc218c144412/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/1dc97130636bf7a2f2b3dc218c144412/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2539e8ca2120e758c226c5b1b4d5757e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2539e8ca2120e758c226c5b1b4d5757e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/69b429085370d9bc9523bdb8bdad4237/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/69b429085370d9bc9523bdb8bdad4237/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7de8ec0e8384ecce4fefd56f24ff8637/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/7de8ec0e8384ecce4fefd56f24ff8637/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/805f6da53a7727fb5b152b9b0b5ccd7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/805f6da53a7727fb5b152b9b0b5ccd7d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/09ec492aee621470cb2095b0191bc7e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/09ec492aee621470cb2095b0191bc7e4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b00778a7cfec8f04813e60fad2db3374/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b00778a7cfec8f04813e60fad2db3374/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ad1cba2826ba56883f6328a96b0388a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/3ad1cba2826ba56883f6328a96b0388a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eb911f2085377a85054d4f485a086e6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/eb911f2085377a85054d4f485a086e6c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9275850229c42b4a07a711264afef563/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/9275850229c42b4a07a711264afef563/AndroidManifest.xml:20:5-44
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android:3.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxlifecycle-android-3.0.0.aar/36244e790bb51d6f6bedc9a4ab397422/AndroidManifest.xml:16:5-44
+MERGED from [com.trello.rxlifecycle3:rxlifecycle-android:3.0.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxlifecycle-android-3.0.0.aar/36244e790bb51d6f6bedc9a4ab397422/AndroidManifest.xml:16:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/947ce54b138347f92204c22a4cc27a3d/AndroidManifest.xml:18:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.1.0] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/rxandroid-2.1.0.aar/947ce54b138347f92204c22a4cc27a3d/AndroidManifest.xml:18:5-43
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		ADDED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/zalyyh/android/zmvvm/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/zalyyh/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/92e97a88f3a25889f5782e438f138ce4/AndroidManifest.xml:24:13-83
