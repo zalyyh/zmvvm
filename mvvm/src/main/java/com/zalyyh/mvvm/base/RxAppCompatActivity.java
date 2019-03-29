@@ -2,6 +2,7 @@ package com.zalyyh.mvvm.base;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProviders;
+import android.databinding.ViewDataBinding;
 import android.os.Bundle;
 import android.support.annotation.CallSuper;
 import android.support.annotation.CheckResult;
@@ -112,14 +113,15 @@ public abstract class RxAppCompatActivity extends AppCompatActivity implements L
     public abstract int initVariableId();
 
 
+
     /**
      * 创建ViewModel
      *
      * @param cls
-     * @param <T>
+     * @param <VM>
      * @return
      */
-    public <T extends ViewModel> T createViewModel(FragmentActivity activity, Class<T> cls) {
+    public <VM extends ViewModel> VM createViewModel(FragmentActivity activity, Class<VM> cls) {
         return ViewModelProviders.of(activity).get(cls);
     }
     public <VM extends ViewModel> VM getModel(VM model){

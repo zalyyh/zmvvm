@@ -38,5 +38,9 @@ public interface IBaseViewModel extends LifecycleObserver {
      * 移除RxBus
      */
     void removeRxBus();
+    /**
+     * 获取数据
+     * */
+    void getData();
 }
 

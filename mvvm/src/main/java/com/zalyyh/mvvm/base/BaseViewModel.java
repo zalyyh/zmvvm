@@ -16,15 +16,11 @@ import com.zalyyh.mvvm.interfaces.IBaseActivity;
 import com.zalyyh.mvvm.interfaces.IBaseViewModel;
 import com.zalyyh.mvvm.interfaces.UIData;
 
-public class BaseViewModel<V extends ViewDataBinding> extends AndroidViewModel implements IBaseViewModel,UIData {
+public class BaseViewModel extends AndroidViewModel implements IBaseViewModel,UIData {
     private LifecycleProvider lifecycle;
     protected IBaseActivity baseActivity;
     protected Activity activity;
-    protected IBaseActivity iBase;
 
-    public void setIb(IBaseActivity ib) {
-        this.iBase = ib;
-    }
 
     public BaseViewModel(@NonNull Application application) {
         super(application);
@@ -90,6 +86,11 @@ public class BaseViewModel<V extends ViewDataBinding> extends AndroidViewModel i
 
     @Override
     public void removeRxBus() {
+
+    }
+
+    @Override
+    public void getData() {
 
     }
 

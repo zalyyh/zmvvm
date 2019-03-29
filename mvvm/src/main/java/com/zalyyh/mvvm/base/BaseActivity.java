@@ -12,12 +12,13 @@ public abstract class BaseActivity<V extends ViewDataBinding, VM extends BaseVie
     protected VM model;
     protected int viewModelId;
 
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //注册RxBus
         model.registerRxBus();
-        model.setBaseActivity(this);
+
 
     }
 
@@ -36,7 +37,7 @@ public abstract class BaseActivity<V extends ViewDataBinding, VM extends BaseVie
         //注入RxLifecycle生命周期
         model.injectLifecycleProvider(this);
         model.setActivity(this);
-        model.setIb(this);
+        model.setBaseActivity(this);
 
     }
 
@@ -87,7 +88,7 @@ public abstract class BaseActivity<V extends ViewDataBinding, VM extends BaseVie
 
     @Override
     public V getBinding() {
-        return binding;
+        return (V)binding;
     }
 
 }
