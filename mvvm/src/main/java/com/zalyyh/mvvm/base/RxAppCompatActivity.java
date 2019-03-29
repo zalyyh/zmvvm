@@ -15,6 +15,7 @@ import com.trello.rxlifecycle3.LifecycleTransformer;
 import com.trello.rxlifecycle3.RxLifecycle;
 import com.trello.rxlifecycle3.android.ActivityEvent;
 import com.trello.rxlifecycle3.android.RxLifecycleAndroid;
+import com.zalyyh.mvvm.interfaces.IBaseActivity;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -109,6 +110,8 @@ public abstract class RxAppCompatActivity extends AppCompatActivity implements L
      * @return BR的id
      */
     public abstract int initVariableId();
+
+
     /**
      * 创建ViewModel
      *

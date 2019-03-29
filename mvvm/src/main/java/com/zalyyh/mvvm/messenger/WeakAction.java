@@ -1,5 +1,8 @@
 package com.zalyyh.mvvm.messenger;
 
+import com.zalyyh.mvvm.interfaces.Action0;
+import com.zalyyh.mvvm.interfaces.Action1;
+
 import java.lang.ref.WeakReference;
 
 

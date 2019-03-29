@@ -7,7 +7,7 @@ import android.support.annotation.Nullable;
 
 import com.zalyyh.mvvm.messenger.Messenger;
 
-public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseViewModel> extends RxAppCompatActivity  {
+public abstract class BaseActivity<V extends ViewDataBinding, VM extends BaseViewModel> extends RxAppCompatActivity {
     protected V binding;
     protected VM model;
     protected int viewModelId;
@@ -20,6 +20,7 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
         model.setBaseActivity(this);
 
     }
+
     /**
      * 注入绑定
      */
@@ -35,8 +36,10 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
         //注入RxLifecycle生命周期
         model.injectLifecycleProvider(this);
         model.setActivity(this);
+        model.setIb(this);
 
     }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -48,17 +51,18 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
         model = null;
         binding.unbind();
     }
+
     //刷新布局
     public void refreshLayout() {
         if (model != null) {
             binding.setVariable(viewModelId, model);
         }
     }
+
     @Override
     public void initParam() {
 
     }
-
 
 
     /**
@@ -79,7 +83,6 @@ public abstract class BaseActivity <V extends ViewDataBinding,VM extends BaseVie
     public void initViewObservable() {
 
     }
-
 
 
     @Override

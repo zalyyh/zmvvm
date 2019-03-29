@@ -5,14 +5,27 @@ import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.Lifecycle;
 import android.arch.lifecycle.LifecycleOwner;
+import android.databinding.ObservableField;
+import android.databinding.ObservableInt;
+import android.databinding.ViewDataBinding;
 import android.support.annotation.NonNull;
+import android.view.View;
 
 import com.trello.rxlifecycle3.LifecycleProvider;
+import com.zalyyh.mvvm.interfaces.IBaseActivity;
+import com.zalyyh.mvvm.interfaces.IBaseViewModel;
+import com.zalyyh.mvvm.interfaces.UIData;
 
-public class BaseViewModel extends AndroidViewModel implements IBaseViewModel {
+public class BaseViewModel<V extends ViewDataBinding> extends AndroidViewModel implements IBaseViewModel,UIData {
     private LifecycleProvider lifecycle;
     protected IBaseActivity baseActivity;
     protected Activity activity;
+    protected IBaseActivity iBase;
+
+    public void setIb(IBaseActivity ib) {
+        this.iBase = ib;
+    }
+
     public BaseViewModel(@NonNull Application application) {
         super(application);
     }
@@ -79,5 +92,11 @@ public class BaseViewModel extends AndroidViewModel implements IBaseViewModel {
     public void removeRxBus() {
 
     }
+
+    @Override
+    public BaseViewModel get() {
+        return this;
+    }
+
 
 }
